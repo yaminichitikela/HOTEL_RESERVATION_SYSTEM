@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
+    justify-items: center;
+}
+.container h1{
+    font-size: 45px;
+}
+.container p{
+    font-size: 23px;
+    color: green;
+    font-weight: 700;
+}
+.container form{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    width: 60%;
+}
+.container form label{
+    font-size: 18px;
+}
+.container form .tags{
+    height: 30px;
+}
+.container form .button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    justify-self: center;
+}
+.container form .button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
